@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "./base.css";
+
+/* Calm, clinical-but-warm palette: soft white, deep teal, mint */
+@theme {
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-bg: #f5f8f7;
+  --color-surface: #ffffff;
+  --color-ink: #10231f;
+  --color-muted: #4d605b;
+  --color-line: #dbe5e2;
+  --color-brand: #0d5c54;
+  --color-brand-ink: #ffffff;
+  --color-mint: #dcefe8;
+  --color-mint-ink: #0d5c54;
+  --color-warn: #fff4e0;
+
+  --radius-button: 0.875rem;
+  --radius-field: 0.75rem;
+  --radius-card: 1.25rem;
+}
+
+/* Slightly larger base text (17px) — many visitors will be older adults or their families */
+html {
+  font-size: 106.25%;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
